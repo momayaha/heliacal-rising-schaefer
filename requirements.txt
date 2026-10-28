@@ -1,0 +1,2 @@
+# No external Python dependencies. The supplied scripts use the standard library.
+# Tested on Python 3.13.5 (October 2026).

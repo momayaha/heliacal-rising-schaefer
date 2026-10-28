@@ -1,0 +1,4 @@
+kv,published_delta_days,calculated_delta_days,residual_days,absolute_residual_days,passed,sun_hour_angle_deg,sun_altitude_deg,sun_azimuth_deg,star_hour_angle_deg,star_altitude_deg,star_azimuth_deg,sun_star_azimuth_difference_deg,limiting_magnitude_v,visibility_margin_mag,airmass,background_nl,within_schaefer1987_calibration_domain
+0.20,133.800,133.597916,-0.202084,0.202084,True,-106.700000,-4.698544,66.046493,-76.417518,2.935806,111.202618,45.156125,-1.459976,+0.00002448,15.279073,4893427.937932,False
+0.30,136.300,136.057755,-0.242245,0.242245,True,-107.400000,-5.605040,66.203249,-74.737029,4.288579,112.076789,45.873541,-1.459979,+0.00002058,11.660123,2690618.597379,False
+0.40,138.500,138.137375,-0.362625,0.362625,True,-107.900000,-6.312944,66.400541,-73.236351,5.489507,112.869655,46.469114,-1.460022,-0.00002247,9.579294,1637772.245965,True

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release when available."
+title: "Heliacal-rising simulations: Schaefer (1987) implementation"
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: Surina
+    given-names: Farung
+    affiliation: Chiang Rai Rajabhat University
+abstract: "Python software for multi-epoch heliacal-rising simulations based on the Schaefer (1987) naked-eye stellar visibility model, with validation examples and a Chiang Saen case study."
+keywords:
+  - archaeoastronomy
+  - heliacal rising
+  - stellar visibility
+  - Schaefer model
+  - Python
