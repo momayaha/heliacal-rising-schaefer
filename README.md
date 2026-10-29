@@ -1,6 +1,12 @@
 # Heliacal-rising simulations: Schaefer (1987) implementation
 
-> **Private setup package (not yet a public release).** Seven scientific scripts are copied without modification from the submitted Chiang Saen code bundle. Complete the pre-publication checks in `docs/RELEASE_CHECKLIST.md` before switching the GitHub repository to Public or creating a `v1.0.0` release.
+
+> **Public research software repository.**
+> This repository provides seven modular Python scripts,
+> input data, validation procedures, and numerical results
+> supporting the reproducible heliacal-rising simulations
+> presented in the Chiang Saen archaeoastronomy study.
+
 
 Python implementation of historical heliacal-rising computations based on the visibility model of Schaefer (1987), demonstrated with 27 Nakshatra candidates and archaeological sight lines at Chiang Saen, Thailand.
 
@@ -8,7 +14,7 @@ Python implementation of historical heliacal-rising computations based on the vi
 
 Software associated with the manuscript:
 
-*A Workflow for Evaluating Stellar-Alignment Candidates Using Multi-Epoch Heliacal-Rising Simulations: A Case Study of Chiang Saen, Thailand*, submitted to *Astronomy and Computing*, manuscript ASCOM-D-26-00288R2.
+*A Workflow for Evaluating Stellar-Alignment Candidates Using Multi-Epoch Heliacal-Rising Simulations: A Case Study of Chiang Saen, Thailand*, submitted to *Astronomy and Computing*, manuscript ASCOM-D-26-00288.
 
 This archive contains seven Python scripts, input astrometry, validation outputs, and example derived results. This is a reproducibility-oriented research implementation, not a universal historical sky or full-fidelity ephemeris package.
 
@@ -24,9 +30,15 @@ The adopted observing location is Pa Sak / Chiang Saen Gate (20.2736 degrees N, 
 
 Tested in this software-package audit with Python 3.13.5. All seven scripts use the Python standard library and do not require pip-installed third-party packages.
 
-1. Download and extract this repository, or clone it from GitHub after publication.
-2. Open Terminal / Command Prompt inside the folder containing `run_chiangsaen.py` and `stars.csv`.
-3. Run one or more commands shown below.
+
+1. Download this repository using **Code > Download ZIP**,
+   or clone it using:
+
+   git clone https://github.com/momayaha/heliacal-rising-schaefer.git
+
+2. Open Terminal / Command Prompt in the repository folder.
+3. Run the validation scripts or the Chiang Saen simulation
+   commands described below.
 
 No special installation is needed for the code as supplied here. See `requirements.txt`.
 
@@ -102,13 +114,24 @@ The primary 270-row run and validation CSVs have associated executable scripts. 
 - Schaefer, B. E. (1986), *Atmospheric Extinction Effects on Stellar Alignments*.
 - Schaefer, B. E. (1987), *Heliacal Rise Phenomena*.
 - Schaefer, B. E. (1993), *Astronomy and the Limits of Vision*.
-- Associated Chiang Saen manuscript, *Astronomy and Computing*, ASCOM-D-26-00288R2 (under revision as of October 2026).
+- Associated Chiang Saen manuscript, *Astronomy and Computing*, ASCOM-D-26-00288 (under revision as of October 2026).
+
 
 ## Software authorship, citation and license
 
-Software creator and copyright holder: **Farung Surina**. The software code and documentation in this repository are provided under the MIT License (see `LICENSE`); confirm provenance and redistribution rights for the incorporated input data and reference material separately.
+Software author: Farung Surina
+Institution: Chiang Rai Rajabhat University
+License: MIT
 
-`CITATION.cff` provides a provisional software citation. After the first release is archived on Zenodo, add the actual release DOI and GitHub URL to the citation metadata. Do not invent or insert a DOI before it exists.
+GitHub:
+https://github.com/momayaha/heliacal-rising-schaefer
+
+Zenodo:
+https://doi.org/10.5281/zenodo.23724651
+
+Please cite the archived software release when using
+this implementation in published research.
+Citation metadata are provided in `CITATION.cff`.
 
 ## Software development and AI-use statement
 
